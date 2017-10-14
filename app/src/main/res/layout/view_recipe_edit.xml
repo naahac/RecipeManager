@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="27dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_text_recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Recipe Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_ingredients"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:tint="@color/colorPrimaryDark"
+            android:src="@drawable/ic_access_time_white_24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <org.florescu.android.rangeseekbar.RangeSeekBar
+            android:id="@+id/seek_bar_search_preparation_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleThumb="true"
+            app:textAboveThumbsColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1">-->
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.5">-->
+        <!--<android.support.design.widget.TextInputEditText-->
+            <!--android:id="@+id/edit_text_recipe_preparation_time"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="number"-->
+            <!--android:hint="Recipe preparation time" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+        <!--<Spinner-->
+            <!--android:id="@+id/spinner_time_unit"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</Spinner>-->
+    <!--</LinearLayout>-->
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_text_recipe_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="Recipe description" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+        <!--<android.support.design.widget.TextInputEditText-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+            <!--android:id="@+id/edit_text_recipe_description"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@null"-->
+            <!--android:gravity="top|left"-->
+            <!--android:inputType="textMultiLine"-->
+            <!--android:overScrollMode="always"-->
+            <!--android:scrollbarStyle="insideInset"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:lines="6"-->
+            <!--android:hint="Recipe description"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:scrollHorizontally="false" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+</LinearLayout>

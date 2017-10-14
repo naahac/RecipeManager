@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Manager</string>
+    <string name="all_confirm">Confirm</string>
+    <string name="all_cancel">Cancel</string>
+    <string name="all_error_no_internet">No internet!</string>
+    <string name="dialogexit_message">Are you sure you want to exit application?</string>
+    <string name="login_loginbutton">Login</string>
+
+
+    <string name="auth0_client_id">Y8kO2BGQBF530YhgXua4aSJ5QVuxHVLS</string>
+    <string name="auth0_domain">naahac.eu.auth0.com</string>
+    <string name="google_knowledge_graph_key">AIzaSyCVCaBqJDHKPNLTZm2PNAyIAUpsMgdhTvs</string>
+    <string name="fragment_my_recipes_title">My Recipes</string>
+    <string name="fragment_search_title">Search</string>
+    <string name="fragment_profile_title">Profile</string>
+    <string name="long_latin">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="all_error_empty">Can\'t be empty!</string>
+    <string name="all_error_password_dont_match">Passwords don\'t match!</string>
+    <string name="all_error_email">Invalid email!</string>
+    <string name="all_error_unknown">Unknown server error!!</string>
+    <string name="all_error_token">Invalid token! Please restrat app!</string>
+    <string name="error_search">Search error!</string>
+    <string name="user_update_success">User updated!!</string>
+    <string name="error_update_user">User update error!!</string>
+    <string name="error_login">Unsuccesfull login!!!</string>
+    <string name="error_register">Unsuccesfull registration!!!</string>
+    <string name="register_success">You have been successfully registered!</string>
+</resources>

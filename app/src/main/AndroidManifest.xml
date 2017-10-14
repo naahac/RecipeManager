@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naahac.tvaproject">
+
+    <application
+        android:name="com.naahac.tvaproject.app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.naahac.tvaproject.ui.screens.login.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.naahac.tvaproject.ui.screens.main.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.naahac.tvaproject.ui.screens.recipe_details.RecipeDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.naahac.tvaproject.ui.screens.main.search.SearchParametersActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.naahac.tvaproject.ui.screens.main.offline_mode.OfflineModeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.naahac.tvaproject.ui.screens.splash.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

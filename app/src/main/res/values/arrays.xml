@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="measures_sppinner_items">
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Milliliter</item>
+        <item>Deciliter</item>
+        <item>Liter</item>
+        <item>Piece</item>
+        <item>Spoon</item>
+        <item>Teaspoon</item>
+    </string-array>
+    <string-array name="measures_sppinner_item_values">
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>dcl</item>
+        <item>l</item>
+        <item>pcs</item>
+        <item>Spoon</item>
+        <item>Teaspoon</item>
+    </string-array>
+
+    <string-array name="time_units_spinner">
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+</resources>
